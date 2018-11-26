@@ -1,0 +1,47 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Spotify App </title>
+    <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+  </head>
+
+
+         
+  <body>
+
+    <main>
+      <section style="background-color:#509BF5;color:white;">
+        <h2>Get an Artist</h2>
+        <div id="artist-container"></div>
+      </section>
+        <section style="background-color:#F573A0;color:white;">
+        <h2>Search for a Track</h2>
+        <div id="search-track-container"></div>
+    </section>
+    </main>
+    <!-- Your web-app is https, so your scripts need to be too -->
+
+    <script>
+             $("#{{id}}").addClass("active item");
+    </script>
+    <script src="/client.js"></script>
+
+
+  </body>
+</html>

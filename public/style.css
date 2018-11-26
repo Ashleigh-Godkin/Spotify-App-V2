@@ -1,0 +1,36 @@
+/* styles */
+/* called by your view template */
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+body {
+  padding: 40px 0;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: auto;
+}
+
+img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+section {
+  padding: 30px 70px;
+  margin: 20px 0;
+  background-color: #f3f3f3;
+}
+
+.circle-image {
+  border-radius: 300px;
+}

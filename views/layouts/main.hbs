@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> {{title}} </title>
+    <meta charset="UTF-8">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+  </head>
+  <body>
+
+    <section class="ui container">
+      {{{body}}}
+    </section>
+
+      <section style="background-color:#509BF5;color:white;">
+        <h2>Get an Artist</h2>
+        <div id="artist-container"></div>
+      </section>  
+     <section style="background-color:#F573A0;color:white;">
+        <h2>Search for a Track</h2>
+        <div id="search-track-container"></div>
+      </section>
+      
+    <section class="ui container">
+      <div class="ui inverted segment">Search Results</div>
+         <section class="results">
+            <ul id="results"></ul>
+          </section>
+    </section>
+ 
+    <script src="/client.js"></script>
+  </body>
+</html>

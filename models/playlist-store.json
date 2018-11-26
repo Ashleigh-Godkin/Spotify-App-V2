@@ -1,0 +1,40 @@
+{
+  "playlistCollection": [
+    {
+      "id": "0001",
+      "title": "Top 5",
+      "songs": [
+        {
+          "title": "thank u, next",
+          "artist": "Ariana Grande",
+          "position": "1"
+        },
+        {
+          "title": "Taki Taki",
+          "artist": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+          "position": "2"
+        },
+        {
+          "title": "MIA",
+          "artist": "Bad Bunny, Drake",
+          "position": "3"
+        },
+        {
+          "title": "Sunflower",
+          "artist": "Post Malone, Swae Lee",
+          "position": "4"
+        },
+        {
+          "title": "Happier",
+          "artist": "Marshmello, Bastille",
+          "position": "5"
+        }
+      ]
+    },
+      {
+      "id": "0002",
+      "title": "test2",
+      "songs": []
+    }
+  ]
+}
